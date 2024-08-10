@@ -19,7 +19,7 @@ interface MeetingModalProps {
   buttonIcon?: string;
 }
 
-const MeetingModel = ({
+const MeetingModal = ({
   isOpen,
   onClose,
   title,
@@ -55,4 +55,4 @@ const MeetingModel = ({
   );
 };
 
-export default MeetingModel;
+export default MeetingModal;
